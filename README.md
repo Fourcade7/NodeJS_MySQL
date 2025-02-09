@@ -3,7 +3,7 @@
 
 
 
-
+install
 
 
         
@@ -14,14 +14,14 @@
 
 
 
-
+env file
 
 
         DATABASE_URL="postgresql://user:password@localhost:5432/databasename"
 
 
 
-
+database model
 
 
         model User {
@@ -32,7 +32,8 @@
         }
 
 
-        
+   prisma init
+
 
 
         npx prisma migrate dev --name init
